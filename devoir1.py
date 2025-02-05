@@ -43,7 +43,7 @@ if experience == "oui" and année_exp >= 5 and diplôme == "oui":
     print("félicitations, vous avez le travail!")
 
 else:
-    print("désolé, votre candidature n'est pas retenue.")
+    print("on vous rappele.")
 
 
 print("ce n'est pas fini si vous n'aviez pas été accepté")
