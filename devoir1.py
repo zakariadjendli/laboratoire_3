@@ -74,6 +74,7 @@ elif qqq == "non":
 
     
 
-
+# If et elif soi oui et non 
+# else tout le reste sera pas enregistré et vous dira mauvaise entrée
 
             #3 bloc de conditions complet,3 entrées utilisateur,1 operateur logique,imprimer un resultat # op log 
