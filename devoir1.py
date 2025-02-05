@@ -46,7 +46,8 @@ else:
     print("désolé, votre candidature n'est pas retenue.")
 
 
-if
+if experience == "non"<
+print("")
 
 
             #3 bloc de conditions complet,3 entrées utilisateur,1 operateur logique,imprimer un resultat # op log 
