@@ -46,8 +46,18 @@ else:
     print("désolé, votre candidature n'est pas retenue.")
 
 
-if experience == "non"<
-print("")
+print("ce n'est pas fini si vous n'aviez pas été accepté")
+question = input ("aviez-vous répondu non a l'une des questions?")
+
+if question == "non":
+    print("vous aviez terminé le formulaire veuillez le deposer")
+elif question == "oui":
+    print("ce n'est pas fini")
+else:
+    print("mauvaise entrée")
+
+    
+
 
 
             #3 bloc de conditions complet,3 entrées utilisateur,1 operateur logique,imprimer un resultat # op log 
