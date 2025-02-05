@@ -6,14 +6,14 @@ if experience == "oui":
     print("parfait, prochaine question")
 
 elif experience == "non":
-    print("ok, bonne journée")
+    print("ok, question suivante")
 
 else:
     print("mauvaise entrée")
 
 année_exp = input("combien d'années d'expérience? ")
 
-if année_exp.isdigit():
+if année_exp.isdigit(): # repondre en chiffres svp
     année_exp = int(année_exp)
 
     if année_exp < 5:
@@ -58,7 +58,7 @@ else:
 
 
 print("besoin d'infos pour les stats")
-exp = input ("je vois que vous n'aviez pas assez d'experience, expliquez-moi pourquoi?")
+exp = input ("je vois que vous n'aviez pas assez d'experience, expliquez-moi pourquoi?")   # pas de bonnes ou mauvaises réponses
 print("ok je vois")
 
 
