@@ -56,6 +56,11 @@ elif question == "oui":
 else:
     print("mauvaise entrée")
 
+
+print("besoin d'infos pour les stats")
+exp = input ("je vois que vous n'aviez pas assez d'experience, expliquez-moi pourquoi?")
+print("ok je vois")
+
     
 
 
