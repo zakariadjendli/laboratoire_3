@@ -61,6 +61,17 @@ print("besoin d'infos pour les stats")
 exp = input ("je vois que vous n'aviez pas assez d'experience, expliquez-moi pourquoi?")
 print("ok je vois")
 
+
+
+print("une derniere question?")
+qqq= input ("le diplome est-il pour bientot?")
+if qqq == "oui":
+    print("n'hesitez pas a revenir postuler")
+
+elif qqq == "non":
+    print ("je vous souhaite bonne chance pour les autres entretiens")
+
+
     
 
 
