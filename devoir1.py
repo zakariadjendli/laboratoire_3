@@ -52,6 +52,12 @@ elif diplôme == "non":
 
 else:
     print("mauvaise entrée")
+    while True:
+        diplôme = input("avez-vous un diplôme en lien avec ce domaine? ")
+        if diplôme == "non" or diplôme == "oui":
+            break
+        else:
+            print("mauvaise entrée")
 
 if experience == "oui" and année_exp >= 5 and diplôme == "oui":
     print("félicitations, vous avez le travail!")
