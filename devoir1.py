@@ -16,27 +16,31 @@ while True:
         break
     else:
         print("mauvaise entrée")
-    
-experience == "non" or experience == "oui":
-        
+            
     
 
-année_exp = input("combien d'années d'expérience? ")
+for année_exp in range(100):
+    print(f"{année_exp} ans d'expérience")
 
-if année_exp.isdigit(): # repondre en chiffres svp
-    année_exp = int(année_exp)
+while True:
+    année_exp = input("combien d'années d'expérience? ")
 
-    if année_exp < 5:
-        print("pas assez d'expérience.")
+    if année_exp.isdigit():  # répondre en chiffres svp
+        année_exp = int(année_exp)
 
-    elif année_exp >= 5:
-        print("parfait, prochaine question")
+        if année_exp < 5:
+            print("pas assez d'expérience.")
+            break
+
+        elif année_exp >= 5:
+            print("parfait, prochaine question")
+            break
+
+        else:
+            print("mauvaise entrée")
 
     else:
-        print("mauvaise entrée")
-
-else:
-    print("mauvaise entrée, veuillez entrer un nombre.")
+        print("mauvaise entrée, veuillez entrer un nombre.")
 
 diplôme = input("avez-vous un diplôme en lien avec ce domaine? ")
 
