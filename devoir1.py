@@ -1,6 +1,6 @@
-print("formulaire d'emploi")
+print("formulaire d'emploi")# voici le formulaire d'emploi pour un poste de développeur web
 
-experience = input("aviez-vous de l'expérience dans le domaine? ")
+experience = input("aviez-vous de l'expérience dans le domaine? ")# question 1 qui se repondera par oui ou non
 
 if experience == "oui":
     print("parfait, prochaine question")
@@ -15,25 +15,25 @@ while True:
     if experience == "non" or experience == "oui":
         break
     else:
-        print("mauvaise entrée")
+        print("mauvaise entrée")# si ce nest pas oui ou non, on vous redemande de repondre oui ou non
             
     
 
-for année_exp in range(100):
+for année_exp in range(100):#pour cette question, on vous demande de rentrer un chiffre entre 0 et 100
     print(f"{année_exp} ans d'expérience")
 
 while True:
-    année_exp = input("combien d'années d'expérience? ")
+    année_exp = input("combien d'années d'expérience? ")#si ce nest pas un chiffre, on vous redemande de rentrer un chiffre
 
     if année_exp.isdigit():  # répondre en chiffres svp
         année_exp = int(année_exp)
 
         if année_exp < 5:
-            print("pas assez d'expérience.")
+            print("pas assez d'expérience.")# si vous avez moins de 5 ans d'expérience, vous n'êtes pas accepté
             break
 
         elif année_exp >= 5:
-            print("parfait, prochaine question")
+            print("parfait, prochaine question")#si vous avez 5 ans ou plus d'expérience, vous passez à la prochaine question
             break
 
         else:
@@ -69,12 +69,16 @@ else:
 print("ce n'est pas fini si vous n'aviez pas été accepté")
 question = input ("aviez-vous répondu non a l'une des questions?")
 
-if question == "non":
-    print("vous aviez terminé le formulaire veuillez le deposer")
-elif question == "oui":
-    print("ce n'est pas fini")
-else:
-    print("mauvaise entrée")
+while True:
+    question = input("aviez-vous répondu non à l'une des questions? ")
+    if question == "non":
+        print("vous aviez terminé le formulaire veuillez le deposer")
+        break
+    elif question == "oui":
+        print("ce n'est pas fini")
+        break
+    else:
+        print("mauvaise entrée")
 
 
 print("besoin d'infos pour les stats")

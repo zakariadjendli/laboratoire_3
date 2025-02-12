@@ -5,3 +5,4 @@ modification de : désolé, vous ne remplissez pas toutes les conditions. == on 
 ajout de boucle while pour la premiere question  experience si ce nest pas oui ou non 
 ajout de boucle for pour la deuxieme question, montre une liste de choix entre les chiffres 0 a 100, si ce nest pas un chiffre, il demande de rentrer un chiffre
     ajout de boucle while pour la troisieme question, si ce nest pas oui ou non on vous redemande de rentrer oui ou non
+ajout de boucle while pour la quatrieme question, si ce nest pas oui ou non on vous redemande de repondre oui ou non
