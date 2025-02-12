@@ -8,8 +8,18 @@ if experience == "oui":
 elif experience == "non":
     print("ok, question suivante")
 
-else:
+else :
     print("mauvaise entrée")
+while True:
+    experience = input("aviez-vous de l'expérience dans le domaine? ")
+    if experience == "non" or experience == "oui":
+        break
+    else:
+        print("mauvaise entrée")
+    
+experience == "non" or experience == "oui":
+        
+    
 
 année_exp = input("combien d'années d'expérience? ")
 
